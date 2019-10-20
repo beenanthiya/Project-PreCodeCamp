@@ -1,0 +1,113 @@
+body {
+    background-color: #E6E6FA;
+    background-image: url("/img/blank-composition-data-373076.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #0000FF;
+    text-align: center;
+    font-family: verdana;
+    background-color: #F5F5F5;
+}
+
+h2 {
+    color: #C71585;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #F5F5F5;
+}
+
+ul {
+    font-family: 'Rajdhani', sans-serif;
+    color: #BA55D3;
+}
+
+p {
+    font-family: verdana;
+    color: #BA55D3;
+    font-size: 40px;
+}
+
+.head { 
+    text-align: center;
+    /* background-color: #F6F679; */
+
+    padding: 25px;
+    /* background-image: url("/img/apple-background-connection-399161.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed; */
+}
+
+.myimg { 
+        /* width: 45%; */
+        text-align: center;
+    }
+
+.name {
+    font-family: 'Amatic SC', cursive;
+    color: #BA55D3;
+    font-size: 80px;
+    text-align: center;
+}
+
+ [class*="col-"] {
+    float: left;
+} 
+
+.nickname {
+    font-family: 'Amatic SC', cursive;
+    color: #BA55D3;
+    font-size: 60px;
+    /* background-color: #F5F5F5; */
+}
+
+.col-1 {
+    font-family: verdana;
+    color: #BA55D3;
+    font-size: 25px;
+    background-color: #F5F5F5;
+    margin: 5px 5px 5px 0px;
+    padding: 25px;
+}
+
+.col-2 {
+    font-family: verdana;
+    color: #BA55D3;
+    font-size: 25px;
+    background-color: #F5F5F5;
+    margin: 5px 5px 5px 0px;
+    padding: 25px;
+}
+
+.col-3 {
+    font-family: verdana;
+    color: #BA55D3;
+    font-size: 25px;
+    background-color: #F5F5F5;
+    margin: 5px 5px 0px 0px;
+    padding: 30px; 
+}
+
+.tel {
+    font-family: 'Concert One', cursive;
+}
+
+.email {
+    font-family: 'Concert One', cursive;
+}
+
+.dob {
+    font-family: 'Concert One', cursive;
+}
+
+.rel {
+    font-family: 'Concert One', cursive;
+}
+
+.nation {
+    font-family: 'Concert One', cursive;
+}
