@@ -3,6 +3,7 @@
 
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Resume</title>
 <link type="text/css" rel="stylesheet" href="css/style.css"/>
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
@@ -17,11 +18,12 @@
     <div class="head">
         
             <div >
-                </br></br></br></br>
+                </br></br>
                  <img class="myimg" src="/img/51791316_391336248097020_4763040730362937344_o.jpg" >
                 </br></br>
             </div>
-            <div class="name">Nanthiya Chantharo</div>
+            <div class="name" ondblclick="this.contentEditable=true;this.className='inEdit';"
+            onblur="this.contentEditable=false;this.className='';" contenteditable="false" >Nanthiya Chantharo</div>
             <div class="nickname">Nickname : Bee </br></br></div>
             
     </div>
@@ -31,86 +33,56 @@
             <h2 class="about">About Me</h2>
             
             <div class="tel">CONTACT</div>
-            <ul style="list-style-type:square;">
-            <li>
-                <div>083-9799645</div>
-            </li>
-            <li>
-                    <div>096-8465254</div>
-                </li>
-            </ul>
-            
+            <br>
+            <div class="date">083-9799645</div>
+            <div class="date">096-8465254</div>
+        <br>
             <div class="email">E-MAIL</div>
-            <ul style="list-style-type:square;">
-            <li>
-                <div>nanthiya.ch@baac.or.th</div>
-            </li>
-            </ul>
+            <br>
+            <div class="date"> nanthiya.ch@baac.or.th</div>
 
+            <br>
             <div class="dob">DATE OF BIRTH</div>
-            <ul style="list-style-type:square;">
-            <li>
-                <div>7 DECEMBER 1993</div>
-            </li>
-            </ul>
-
+            <br>
+            <div class="date">7 DECEMBER 1993</div>
+            
+            <br>
             <div class="rel">RELATIONSHIP</div>
-            <ul style="list-style-type:square;">
-            <li>
-                <div>SINGLE</div>
-            </li>
-            </ul>
-
-            <div class="nation">NATIONALITY</div>
-            <ul style="list-style-type:square;">
-            <li>
-                <div>THAI</div>
-            </li>
-            </ul>
+            <br>
+            <div class="date">SINGLE</div>
+            
+            <br>
+            <!-- <div class="nation">NATIONALITY</div>
+            <br>
+            <div class="date">THAI</div> -->
 
         </div>
 
         <div class="col-2">
                 <h2 class="education">Education</h2>
-                <ul>
-                    <li>2012 - 2017 | UBON RATCHATHANI UNIVERSITY 
-                        <ul>
-                            <li>Bachelor of Science in Information Technology</li>
-                        </ul>
-                    </li>
-                    <li>2009 - 2011 | PATHUMTHEP WITTHAYAKARN SCHOOL
-                            <ul>
-                                <li>Program : Science - Mathematics</li>
-                            </ul>
-                    </li>
-                </ul>
+                <div class="date2">2012 - 2017 | UBON RATCHATHANI UNIVERSITY</div>
+                <div class="date2"> - Bachelor of Science in Information Technology</div>
+                <div class="date2">2009 - 2011 | PATHUMTHEP WITTHAYAKARN SCHOOL</div>
+                <div class="date2">- Program : Science - Mathematics</div>
             <h2 class="workexperience">Work Experience</h2>
-            <ul>
-                    <li> 2019 | BANK FOR AGRICULTURE AND AGRICULTURAL COOPERATIVES 
-                        <ul>
-                            <li>Junior Developer</li>
-                        </ul>
-                    </li>
-                    <li>2018 | BAANBUNDITNOI SCHOOL
-                            <ul>
-                                <li>Computer Teacher</li>
-                            </ul>
-                    </li>
-                </ul>
+            <div class="date2">2019 | BANK FOR AGRICULTURE AND AGRICULTURAL COOPERATIVES </div>
+            <div class="date2">- Junior Developer</div>
+            <div class="date2">2018 | BAANBUNDITNOI SCHOOL </div>
+            <div class="date2">- Computer Teacher</div>
 
             <h2 class="activity">Activities & Volunteer</h2>
-                        <ul>
-                                <li> 9 – 18 JANUARY 2016 | THE UNIVERSITY SPORTS OF THAILAND 2016 
-                                    <ul>
-                                        <li>Student Volunteer</li>
-                                    </ul>
-                                </li>
-                        </ul>
-                        
+                       <div class="date2"> 9 – 18 JANUARY 2016 | THE UNIVERSITY SPORTS OF THAILAND 2016</div> 
+                        <div class="date2">- Student Volunteer </div>
             
         </div>
         <div class="col-3" >
+                <div id="myDIV" class="header">
+                     
+                   
             <h2 class="skill">Skill</h2>
+            <input class="addskill" type="text" id="myInput" placeholder="New skill">
+                        <span onclick="newElement()" class="addBtn">Add</span> 
+                    </div>
             <ul id="myUL">
                     <li>Adobe Photoshop</li>
                     <li>Adobe Iilustartor </li>
@@ -123,6 +95,7 @@
         
     </div>
     </div>
+    
     <!-- End your code here -->
 <script type="text/javascript" src="js/script.js"></script>
 </body>

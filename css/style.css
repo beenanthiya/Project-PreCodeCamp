@@ -22,7 +22,8 @@ h2 {
 
 ul {
     font-family: 'Rajdhani', sans-serif;
-    color: #BA55D3;
+    color:#a74cbd;
+    padding: 15px;
 }
 
 p {
@@ -45,11 +46,14 @@ p {
 .myimg { 
         width: 45%;
         text-align: center;
+        border-style: solid;
+        border-color: lightcoral;
+        border-radius: 75%;
     }
 
 .name {
     font-family: 'Amatic SC', cursive;
-    color: #BA55D3;
+    color: #800080;
     font-size: 80px;
     text-align: center;
 }
@@ -60,13 +64,13 @@ p {
 
 .nickname {
     font-family: 'Amatic SC', cursive;
-    color: #BA55D3;
+    color: #800080;
     font-size: 60px;
     /* background-color: #F5F5F5; */
 }
 
 .col-1 {
-    font-family: verdana;
+
     color: #BA55D3;
     font-size: 25px;
     background-color: #F5F5F5;
@@ -75,7 +79,6 @@ p {
 }
 
 .col-2 {
-    font-family: verdana;
     color: #BA55D3;
     font-size: 25px;
     background-color: #F5F5F5;
@@ -84,7 +87,6 @@ p {
 }
 
 .col-3 {
-    font-family: verdana;
     color: #BA55D3;
     font-size: 25px;
     background-color: #F5F5F5;
@@ -94,20 +96,58 @@ p {
 
 .tel {
     font-family: 'Concert One', cursive;
+    color:#800080;
 }
 
 .email {
     font-family: 'Concert One', cursive;
+    color:#800080;
 }
 
 .dob {
     font-family: 'Concert One', cursive;
+    color:#800080;
 }
 
 .rel {
     font-family: 'Concert One', cursive;
+    color:#800080;
 }
 
 .nation {
     font-family: 'Concert One', cursive;
+    color:#800080;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.addBtn {
+    font-family: 'Concert One', cursive;
+    color:#800080;
+    text-align: center;
+    background-color:#E6E6FA;
+    padding: 15px;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.addskill {
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+
+.header {
+    text-align: center;
+}
+.date {
+    font-family: 'Rajdhani', sans-serif;
+    color:#a74cbd;
+
+}
+
+.date2 {
+    font-family: 'Rajdhani', sans-serif;
+    color:#823b93;
 }
